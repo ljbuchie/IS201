@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(173, 55, 12), rgb(98, 36, 200));
+}
+
+  .resume {
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .resume h1, .resume h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  .resume section {
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .section-title {
+    color: #333;
+    text-transform: uppercase;
+  }
+  .list-item {
+    margin-bottom: 5px;
+  }
+  .list-item span {
+    font-weight: bold;
+  }
+
+  .top-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff; /* Fallback for older browsers */
+    background-image: linear-gradient(to right, #0062E6, #33AEFF);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.top-link:hover, .top-link:focus {
+    background-image: linear-gradient(to right, #0056b3, #6699ff);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.main-page-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #28a745; /* Fallback color */
+  background-image: linear-gradient(to right, #28a745, #85d798);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.main-page-link:hover, .main-page-link:focus {
+  background-image: linear-gradient(to right, #218838, #73c6a6);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.cool-text {
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold;
+  color: #fff; /* White text color */
+  background: -webkit-linear-gradient(left, #e10600, #f7b733); /* Gradient from red to yellow */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cool-text:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+
+.responsive-iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  text-align: center; /* Centering */
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
